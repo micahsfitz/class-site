@@ -1,0 +1,56 @@
+
+img{
+  max-width:100%;
+  width:1000px
+}
+
+body {
+  background: mistyrose
+}
+
+.shawna{
+  width:300px;
+}
+
+p {
+  font-size:20px;
+  color: lightseagreen;
+  font-family: monospace;
+  margin-left: 20px
+}
+
+h1 {
+  font-size:40px;
+  color: salmon;
+  font-family: monospace;
+}
+
+h2 {
+  font-size:30px;
+  color: salmon;
+  font-family: monospace;
+}
+
+h3 {
+  font-size:25px;
+  color: salmon;
+  font-family: monospace;
+}
+
+ul {
+  font-size:20px;
+  color: lightseagreen;
+  font-family: monospace;
+}
+
+a {
+  text-decoration: none;
+  color: salmon;
+  font-style: italic;
+  font-family: monospace;
+  font-size:20px;
+}
+
+ul{
+  list-style-type:"❋";
+}

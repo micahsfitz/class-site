@@ -1,0 +1,10 @@
+body{
+  background:mediumseagreen;
+  font-family: monospace;
+}
+
+h1{
+  color:darkgreen;
+  font-size: 40px;
+  margin-left: 20px
+}
