@@ -5,12 +5,12 @@ body{
 
 h1{
   color:darkgreen;
-  font-size: 40px;
+  font-size: 60px;
   margin-left: 20px;
 }
 
 ul{
-  font-size: 20px;
+  font-size: 30px;
   list-style-type: " ⤖";
   color:darkgreen;
 }
@@ -19,7 +19,7 @@ a{
   text-decoration: none;
   color: darkmagenta;
   font-style: italic;
-  font-size:20px;
+  font-size:30px;
 }
 
 .back{
@@ -31,4 +31,10 @@ p{
   margin-right: 40px;
   font-size:20px;
   color:darkslategray;
+}
+
+img{
+  max-width:100%;
+  width:800px;
+  margin-left: 40px;
 }
