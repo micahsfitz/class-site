@@ -54,3 +54,7 @@ a {
 ul{
   list-style-type:"❋";
 }
+
+hr{
+  border:dashed 2px lightseagreen;
+}
