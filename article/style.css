@@ -1,7 +1,7 @@
 
 img{
   max-width:100%;
-  width:1000px;
+  width:800px;
 }
 
 body {
@@ -10,14 +10,15 @@ body {
 
 .shawna{
   width:300px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 p {
   font-size:20px;
   color: lightseagreen;
   font-family: monospace;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-right:40px;
 }
 
 h1 {
@@ -42,6 +43,7 @@ ul {
   font-size:20px;
   color: lightseagreen;
   font-family: monospace;
+  margin:20px
 }
 
 a {
