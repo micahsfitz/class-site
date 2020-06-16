@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width:100%;
+  width:600px;
+}
+
+.shawna{
+  width:300px;
+}
+
+.center{
+  margin:0 auto;
+  display: block;
+}
