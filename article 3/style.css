@@ -2,9 +2,49 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+  background: #C64757
+}
 img{
   max-width:100%;
   width:600px;
+}
+h1{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size:60px;
+  color:lightpink;
+}
+
+h2{
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size:50px;
+  color:lightpink;
+}
+
+h3{
+  font-size:40px;
+  font-style: italic;
+  color:teal;
+}
+
+p{
+  font-size:30px;
+}
+
+a{
+  font-size:30px;
+  font-style: italic;
+  text-decoration: none;
+  color:greenyellow;
+}
+
+ul{
+  font-size:30px;
+  color: teal;
+  list-style-type: "⌁"
 }
 
 .shawna{
@@ -12,6 +52,61 @@ img{
 }
 
 .center{
-  margin:0 auto;
-  display: block;
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 20px;
+  padding:20px;
+  border: 2px dashed lightpink;
+  border-radius: 30px 30px 5px 30px;
+  float: right;
+  background:teal;
+}
+
+.question{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 200px;
+  color:lightpink;
+  background:indianred;
+  padding:20px;
+  border: 2px dashed lightpink;
+  border-radius: 30px 30px 30px 5px;
+}
+
+.answer{
+  display: inline-block;
+  color:lightpink;
+  background:teal;
+  margin-left: 200px;
+  margin-right: 20px;
+  padding:20px;
+  border: 2px dashed lightpink;
+  border-radius: 30px 30px 5px 30px;
+}
+
+.middle{
+  text-align: center;
+  color:lightpink;
+  font-size:20px;
+}
+
+.things{
+  margin: 40px;
+  padding:20px;
+  background:lightpink;
+  display: inline-block;
+  border: 2px dashed teal;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.prelude{
+  margin: 40px;
+  padding:20px;
+  background:greenyellow;
+  display: inline-block;
+  border: 2px dashed teal;
+  border-radius: 30px 30px 30px 30px;
+}
+.teal{
+  color:teal;
 }
