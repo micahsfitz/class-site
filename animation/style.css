@@ -1,0 +1,65 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:coral;
+  text-align:center;
+  color:teal;
+  font-size:50px;
+  font-family: monospace;
+}
+
+p{
+  margin-top: 50px;
+}
+.flex{
+  height:600px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  background: lightseagreen;
+  border:5px dashed teal;
+  width:500px;
+  height:500px;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+
+.circle{
+  background: lightcoral;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  border:5px dashed indianred;
+  animation: bounce 4s linear infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform:translate(-200px,60px);
+  }
+  15% {
+    transform:translate(200px,-150px);
+  }
+  25% {
+    transform:translate(80px,200px);
+  }
+  50% {
+    transform:translate(-200px,-200px);
+  }
+  65%{
+    transform:translate(200px,50px);
+  }
+  85% {
+    transform:translate(30px,200px);
+    }
+  100%{
+    transform:translate(-200px,60px);
+  }
+}
