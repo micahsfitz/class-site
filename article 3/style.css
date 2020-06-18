@@ -110,3 +110,7 @@ ul{
 .teal{
   color:teal;
 }
+
+a:hover{
+  color:teal;
+}

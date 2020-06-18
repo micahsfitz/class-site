@@ -66,3 +66,7 @@ hr{
   margin:0 auto;
   display: block;
 }
+
+a:hover{
+  color:yellow;
+}
