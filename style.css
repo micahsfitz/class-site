@@ -43,3 +43,30 @@ img{
 a:hover{
   color:hotpink;
 }
+
+.box{
+  width:100vw;
+  height:400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  background: darkmagenta;
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  animation: pulse 3s ease infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background: darkmagenta;
+    transform:scale(1);
+  }
+  100%{
+    background: gold;
+    transform:scale(2);
+  }
+}
