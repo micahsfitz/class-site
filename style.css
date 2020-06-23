@@ -59,6 +59,15 @@ a:hover{
   border-radius:50%;
   animation: pulse 3s ease infinite alternate;
 }
+.smaller{
+  width:500px;
+}
+
+.flicker{
+  margin-top: -80px;
+  margin-bottom: -80px;
+  animation: flicker 3s ease infinite alternate;
+}
 
 @keyframes pulse {
   0% {
@@ -68,5 +77,12 @@ a:hover{
   100%{
     background: gold;
     transform:scale(2);
+  }
+}
+
+@keyframes flicker {
+  0% {opacity: 0;
+  }
+  100%{opacity:1;
   }
 }
