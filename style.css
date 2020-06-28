@@ -69,6 +69,10 @@ a:hover{
   animation: flicker 3s ease infinite alternate;
 }
 
+.border{
+  border: darkmagenta solid 10px;
+  width:450px;
+}
 @keyframes pulse {
   0% {
     background: darkmagenta;
