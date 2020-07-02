@@ -7,25 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="spoon-icon.png">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
   </head>
 
   <body>
       <img class="spoon" src="spoon.png">
-      <p class="a">A</p>
-      <p class="c">C</p>
-      <p class="q">Q</p>
-      <p class="v">V</p>
-      <p class="m">M</p>
-      <p class="k">K</p>
-      <p class="h">H</p>
-      <p class="j">J</p>
-      <p class="x">X</p>
-      <p class="t">T</p>
-      <p class="b">B</p>
-      <p class="f">F</p>
-      <p class="y">Y</p>
-      <p class="l">L</p>
-      <p class="r">R</p>
+      <div id="draggable" class="ui-widget-content">
+        <p class="a">A</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="c">C</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="q">Q</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="v">V</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="m">M</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="k">K</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="h">H</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="j">J</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="x">X</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="t">T</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="b">B</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="f">F</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="y">Y</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="l">L</p>
+      </div>
+      <div id="draggable" class="ui-widget-content">
+        <p class="r">R</p>
+      </div>
 
     <div class="box" onclick="newPhrase()" id="phrase"></div>
 
