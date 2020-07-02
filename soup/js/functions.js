@@ -10,6 +10,10 @@ var loadMssg = [
  "you can adore the distance",
  "the ball is in your court",
  "say something you've held back",
+ "pause,collect yourself",
+ "prove yourself to yourself",
+ "you are a complete mystery",
+ "reality is never premanent",
 ];
 // randomize
 document.getElementById("phrase").innerHTML = loadMssg[
