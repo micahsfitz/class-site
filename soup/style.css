@@ -36,6 +36,7 @@ p{
   position: fixed;
   margin-left:200px;
   margin-top:500px;
+  filter:blur(2px);
 }
 
 .c{

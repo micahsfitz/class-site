@@ -8,12 +8,13 @@ var loadMssg = [
  "what are your highest aspirations?",
  "experience it",
  "you can adore the distance",
- "the ball is in your court",
+ "courage will serve you better than complete freedom",
  "say something you've held back",
  "pause,collect yourself",
  "prove yourself to yourself",
  "you are a complete mystery",
- "reality is never premanent",
+ "reality is never permanent",
+ "don't get stuck for too long",
 ];
 // randomize
 document.getElementById("phrase").innerHTML = loadMssg[
