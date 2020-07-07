@@ -262,7 +262,16 @@ p{
     margin-right: auto;
     transform: translate(-50%, -50%);
   }
-  #phrase{
+}
 
-  }
+#phrase:hover{
+  text-shadow: 5px 5px 10px lightpink;
+  font-style: italic;
+}
+
+p:hover{
+  text-shadow: 5px 5px 10px lightpink;
+  filter:blur(1px);
+  font-style: italic;
+  cursor:grab;
 }
