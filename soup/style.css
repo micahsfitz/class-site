@@ -19,6 +19,8 @@ p{
   font-size: 5rem;
   font-family: 'Varela Round', sans-serif;
   color:rgba(190, 186, 94, 0.95);
+  text-shadow: 5px 5px 10px rgb(189, 47, 183);
+  filter:blur(1px);
 }
 
 .spoon{
@@ -35,8 +37,7 @@ p{
   transform:skewX(40deg);
   position: fixed;
   margin-left:200px;
-  margin-top:500px;
-  filter:blur(2px);
+  margin-top:550px;
 }
 
 .c{
@@ -128,8 +129,8 @@ p{
 
 .y{
   position: fixed;
-  margin-left:100px;
-  margin-top:450px;
+  margin-left:90px;
+  margin-top:500px;
   transform: rotate(30deg);
   transform:skewX(10deg)
 }
@@ -150,6 +151,86 @@ p{
   transform:skewX(25deg)
 }
 
+.d{
+  position: fixed;
+  margin-left:900px;
+  margin-top:250px;
+  transform: rotate(50deg);
+  transform:skewX(25deg)
+}
+
+.e{
+  position: fixed;
+  margin-left:800px;
+  margin-top:20px;
+  transform: rotate(20deg);
+  transform:skewX(20deg)
+}
+
+.i{
+  position: fixed;
+  margin-left:1200px;
+  margin-top:700px;
+  transform: rotate(-30deg);
+  transform:skewX(10deg)
+}
+
+.n{
+  position: fixed;
+  margin-left:1200px;
+  margin-top:300px;
+  transform: rotate(50deg);
+  transform:skewX(25deg)
+}
+
+.o{
+  position: fixed;
+  margin-left:1200px;
+  margin-top:50px;
+  transform: rotate(-20deg);
+  transform:skewX(15deg)
+}
+
+.p{
+  position: fixed;
+  margin-left:700px;
+  margin-top:600px;
+  transform: rotate(-10deg);
+  transform:skewX(15deg)
+}
+
+.s{
+  position: fixed;
+  margin-left:1000px;
+  margin-top:300px;
+  transform: rotate(30deg);
+  transform:skewX(20deg)
+}
+
+.u{
+  position: fixed;
+  margin-left:900px;
+  margin-top:100px;
+  transform: rotate(-40deg);
+  transform:skewX(5deg)
+}
+
+.w{
+  position: fixed;
+  margin-left:1000px;
+  margin-top:500px;
+  transform: rotate(20deg);
+  transform:skewX(15deg)
+}
+
+.z{
+  position: fixed;
+  margin-left:1000px;
+  margin-top:720px;
+  transform: rotate(30deg);
+  transform:skewX(25deg)
+}
+
 .box{
   margin-left: 10%;
   width:400px;
@@ -165,6 +246,7 @@ p{
   top:50%;
   left:20%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* this will make it so that when you click it won't select the text and add a background color */
