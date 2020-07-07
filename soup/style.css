@@ -23,7 +23,7 @@ p{
 
 .spoon{
   margin: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 50%;
   left: 50%;
@@ -170,4 +170,17 @@ p{
 /* this will make it so that when you click it won't select the text and add a background color */
 #phrase::selection {
   background: transparent;
+}
+
+@media screen and (orientation: portrait) {
+  .spoon{
+    transform:rotate(-270deg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+  }
+  #phrase{
+
+  }
 }
